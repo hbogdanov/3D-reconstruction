@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Data + outputs (do NOT commit)
+data/*
+!data/.gitkeep
+outputs/
+exports/
+
+# Nerfstudio artifacts (common)
+**/wandb/
+**/logs/
+**/runs/
